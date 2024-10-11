@@ -1,209 +1,115 @@
 body{
-    max-width: 450px;
-    font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.65;
-  margin: 0;
-  font-style: normal;
-  line-height: 30px;
+    background-color: #E9EDEE;
 }
-.logo{
+.logo1{
+    width: 100px;
+    
+    background-color: #222F3F ;
+    padding-left: auto;
+}
+.imm{
+    background-color: #222F3F;
+}
+section{
     text-align: center;
-    background-color: black;
+    font-size: x-large;
+}
+.menu{
+    background-color:#364759;
+}
+ul{
+    list-style: none;
+    
+    padding: 0;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    font-size: 10px;
+}
+.Shop{
+    text-align: center;
+    background-color: #F56600;
+    margin: 20px;
+    margin-left: 20px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #E9EDEE;
+}
+section{
+    background-image: url(./assets/images/bg-image.png) ;
+    background-repeat: repeat;
+    padding: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section p{
+    color: white;
+    padding: 5px;
+}
+.primoblocco{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+   
+    
+}
+main {
+        width: auto;
+        margin-right: 30px;
+        text-align: center;
+        background-color: white;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+.primoblocco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.sfondo1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-left: 10px;
+
+}
+.sfondo1 img{ 
+    width: 80%;
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+aside{
+    margin-right: 30px;
+    padding-left: 30px;
     width: auto;
 }
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1;
-  font-style: bold;
-  color: #28a3ce;
-  padding-top: 60px;
-}
-header{
-    background-image: url(./images/banner.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
-    text-align: center;
-}
-header p{
-    padding-top: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
-    font-size: 20px;
-
-}
-button{
-    margin-top: 10  px;
-    background-color: #f04c2f;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    border: 0px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 20px;
-    border-radius: 10px;
-    margin-top: 15px;
-    
-    
-}
-main{
-    background-color: white;
-    text-align: center;
-}
-h4{
-    font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1;
-  font-style: bold;
-  color: #28a3ce;
-padding-bottom: 20px;
-padding-top: 20px;
-}
-
-.alto{ 
-    margin-top: 70px;
-    padding-left: 35px;
-    padding-right: 35px;
-    font-size: 20px;
-}
-
-.immaginetonda{
-    width: 80%;
-    height: auto;
-    overflow: hidden;
-    border-radius: 50%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-article{
-    background-color: #e22d0e;
-    text-align: center;
-    margin-top: 70px;
-}
-article h3{
-    padding-top: 40px;
-    font-size: 1.6rem;
-    color: white;
-    line-height: 1;
-   
-
-}
-
-#citazione{
-    color: rgb(219, 205, 205);
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.nome{
-    color: white;
-
-}
-.CEO{
-    color: white;
-    font-size: small;
-}
-article div{
-    padding-bottom: 30px;
-}
-
-.bordo1{
-    max-width: 400px;          
-    margin: 20px ;         
-                 
-            
-    background-color: #fff;     
-    border: 1px solid black;
-    overflow: hidden;
-    text-align: center;
-    
-    padding-bottom: 20px;
-    font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.6em;
-}
-.sfondo1{
-    width: 100%;
-    max-width: 100%;
-}
-.bordo2{
-    max-width: 400px;          
-    margin: 20px ;         
-                 
-            
-    background-color: #fff;     
-    border: 1px solid black;
-    overflow: hidden;
-    text-align: center;
-    
-    padding-bottom: 20px;
-    font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.6em;
-}
 .sfondo2{
-    width: 100%;
-    max-width: 100%;
+    width: 1020px;
 }
-.bordo3{
-    max-width: 400px;          
-    margin: 20px ;         
-                 
-            
-    background-color: #fff;     
-    border: 1px solid black;
-    overflow: hidden;
+.contenitore{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
-    font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.6em;
 }
 .sfondo3{
-    width: 100%;
-    max-width: 100%;
+    width: 1020px;
+}
+.contenitore2{
+    text-align: center;
 }
 footer{
-    text-align: center;
-    background-color: #28a3ce;
+    background-color: #222F3F;
 }
-footer h3{
-    padding-top: 40px;
-
-    color: white;
-    line-height: 1;
-    font-size: 40px;
-    font-family: "Montserrat", sans-serif;
-}
-/*qua ho usato display:block perche ossenno i link si mettevano sul solito piano, credo sia flexbox pero non sapevo fare in altro modo*/
-footer a{
-    color: rgb(226, 220, 220);
-    font-size: 15px;
-    display: block;
-}
-.via{
-    color: white;
-font-size: 15px;
-}
-footer p{
-    color: white;
-    font-size: 15px;
-    display: block;
-}
-.icone{
-    font-size: 15px;
-    
+.immaginelog{
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 470px;
 }
